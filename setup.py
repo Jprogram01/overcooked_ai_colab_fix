@@ -9,7 +9,7 @@ setup(name='overcooked_ai',
       author_email='mdc@berkeley.edu',
       packages=find_packages(),
       install_requires=[
-        'numpy',
+        'numpy=1.26.4',
         'tqdm',
         'gym',
         'ipython'
